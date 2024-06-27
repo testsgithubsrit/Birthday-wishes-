@@ -1,0 +1,353 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+    position: absolute;
+    bottom :10%;
+    border-radius: 10px;
+    color: white ;
+    background: linear-gradient(blue,violet);
+}
+.bul{
+  height :150px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#bulbs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bulb {
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+}
+
+#happyBirthday {
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0;
+    color: blueviolet;
+    position: absolute;
+    top:5%;
+}
+.boxes{
+
+   margin-top: 10px;
+
+   margin-left: 50px;
+   margin-right: 50px;
+   background:linear-gradient(orange,grey,red,yellow,blue,green);
+   
+} 
+.boxes span{
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    margin-bottom: 50px;
+margin-left: 20px;
+margin-right: 20px;
+    margin-top: 30px; 
+    font-size: 30px;  
+    border-radius: 10px; 
+    color: white;
+    display: inline-block;
+    animation: slideDown 3s infinite ;
+}
+@keyframes slideDown{
+     0%{
+        transform: translate(0px);
+     }
+     50%{
+        transform: translate(100px);
+     }
+     100%{
+        transform: translate(0px);
+     }
+
+}
+.boxes span:nth-child(1){
+animation-delay: 0.1s;
+background: linear-gradient(black,red);
+}
+.boxes span:nth-child(2){
+    animation-delay: 0.2s;
+    background: linear-gradient(blue,black);
+    }
+    .boxes span:nth-child(3){
+        animation-delay: 0.3s;
+        background: linear-gradient(black,rgb(0, 255, 136));
+        }
+        .boxes span:nth-child(4){
+            animation-delay: 0.4s;
+            background: linear-gradient(rgb(175, 44, 66),yellow)
+            }
+            .boxes span:nth-child(5){
+                animation-delay: 0.5s;
+                background: linear-gradient(orange,red);
+                }
+                .boxes span:nth-child(6){
+                    animation-delay: 0.6s;
+                    background: linear-gradient(rgb(0, 0, 0),rgb(0, 170, 255));
+                    }
+                    .boxes span:nth-child(7){
+                        animation-delay: 0.7s;
+                        background: linear-gradient(skyblue,black);
+                        }
+                        .boxes span:nth-child(8){
+                            animation-delay: 0.8s;
+                            background: linear-gradient(black,tomato);
+                            }
+                            .boxes span:nth-child(9){
+                                animation-delay: 0.9s;
+                                background: linear-gradient(indigo,black);
+                                }
+                                .boxes span:nth-child(10){
+                                    animation-delay: 1s;
+                                    background: linear-gradient(black,green);
+                                    }
+                                    .boxes span:nth-child(11){
+                                        animation-delay: 1.1s;
+                                        background: linear-gradient(black,violet);
+                                        }
+                                        .boxes span:nth-child(12){
+                                            animation-delay: 1.2s;
+                                            background: linear-gradient(cyan,black);
+                                            }
+                                            .boxes span:nth-child(13){
+                                                animation-delay: 1.3s;
+                                                background: linear-gradient(lime,coral);
+                                            }
+                             .boxes span:nth-child(14){
+
+animation-delay: 1.4s;
+
+background: linear-gradient(black,red);
+}
+
+                                              .boxes span:nth-child(15) {
+                                                animation-delay: 1.5s;
+                                                background: linear-gradient(black, red);
+                                              }
+                                              .boxes span:nth-child(16) {
+                                                animation-delay: 1.6s;
+                                                background: linear-gradient(black, red);
+                                              }
+                                              .boxes span:nth-child(17) {
+                                                animation-delay: 1.7s;
+                                                background: linear-gradient(black, red);
+                                              }
+                                              .boxes span:nth-child(18) {
+                                                animation-delay: 1.8s;
+                                                background: linear-gradient(black, red);
+                                              }
+                                              .boxes span:nth-child(19) {
+                                                animation-delay: 2.1s;
+                                                background: linear-gradient(black, red);
+                                              }
+                                              .boxes span:nth-child() {
+                                                animation-delay: 0.1s;
+                                                background: linear-gradient(black, red);
+                                              }
+                                              
+                                            }
+                                                }
+                                                      .ballons-container{
+
+                                                    position: absolute;
+
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    overflow: hidden;
+                                                }
+                                                .ballon{
+                                                    position: absolute;
+                                                    bottom: -150px;
+                                                    width: 100px;
+                                                    height: 70px;
+                                                    animation: float 5s linear infinite;
+                                                }
+                                                .ballon img{
+                                                    width: 100%;
+                                                    height: auto;
+                                                }
+                                                .ballon:nth-child(1){
+                                                    animation-delay: 1s;
+                                                }
+                                                .ballon:nth-child(2){
+                                                    animation-delay: 2s;
+                                                }
+                                                .ballon:nth-child(3){
+                                                    animation-delay: 4s;
+                                                }
+                                                .ballon:nth-child(4){
+                                                    animation-delay: 6s;
+                                                }
+                                                .ballon:nth-child(5){
+                                                    animation-delay: 8s;
+                                                }
+                                                .ballon:nth-child(6){
+                                                    animation-delay: 10s;
+                                                }
+                                                .ballon:nth-child(7){
+                                                    animation-delay: 12s;
+                                                }
+                                                .ballon:nth-child(8){
+                                                   
+                    
+                                                        animation-delay: 14s;
+                                                    }
+                                                    .ballon:nth-child(9){
+                                                        animation-delay: 16s;
+                                                    }
+                                                    .ballon:nth-child(10){
+                                                        animation-delay: 18s;
+                                                    }
+                                                    .ballon:nth-child(11){
+                                                        animation-delay: 11s;
+                                                    }
+                                
+                                                
+                                                .ballon:nth-child(12){
+                                                    animation-delay: 7s;
+                                                }
+                                                .ballon:nth-child(13){
+                                                    animation-delay: 5s;
+                                                }
+                                                .ballon:nth-child(14){
+                                                    animation-delay: 11s;
+                                                }
+                                                @keyframes float{
+                                                    0%{
+                                                        transform:translateY(0)rotate(0deg); 
+                                                    }
+                                                    50%{
+                                                        transform:translateY(-50vh)rotate(45deg); 
+                                                    }
+                                                   100%{
+                                                        transform:translateY(-100vh)rotate(90deg); 
+                                                    }
+                                                }
+                                       
+
+#cake {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    position: scroll ;
+}
+
+/*#candle {
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    position: relative;
+    top: -40px;
+    left: 145px;
+}*/
+                         /*   .candale-img{
+
+                                                        position: absolute;
+
+                                                        top:39%;
+                                                        left:52%;
+                              position: scroll ;                         
+                                                        transform: translateX(-50%);
+                                                              display: block;
+                                                              width: 50px;
+                                                              height: auto;
+                                                              border-radius: 50%;
+                                                              animation: flicker 0.2s forwards;                          
+                                                       
+                                                    }
+                                  @keyframes flicker{
+                                                    0%{
+                                                        opacity: 1;
+                                                        transform: translateX(-50%) translateY(0) scale(1);
+                                                    }
+                                                   50%{
+                                                        opacity: 0.8;
+                                                        transform: translateX(-50%) translateY(-5px) scale(1.1);
+                                                    }
+                                                  100%{
+                                                        opacity: 1;
+                                                        transform: translateX(-50%) translateY(0) scale(1);
+                                                    }
+                                                }
+                                            }                  
+                                                 
+                                                     
+                                                     
+                                          */            
+                                                   
+                               
+                               
+
+#balloons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow:auto;
+    z-index: -1;
+}
+
+.balloon {
+    width: 0px;
+    height: 0px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    animation: fly 5s linear infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100vh);
+    }
+}
+
+#message {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    color: blue;
+    padding-top: 40px;
+}
+.loimg{
+  height :500px;
+  width :500px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px black inset;
+  border: 2px dotted blue;
+  
+}
