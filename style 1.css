@@ -255,6 +255,7 @@ background: linear-gradient(black,red);
                                        
 
 #cake {
+    border-radius:50%;
     width: 300px;
     height: auto;
     margin: 20px 0;
@@ -344,8 +345,8 @@ background: linear-gradient(black,red);
     padding-top: 40px;
 }
 .loimg{
-  height :500px;
-  width :500px;
+  height :400px;
+  width :400px;
   border-radius: 50%;
   box-shadow: 10px 10px 10px black inset;
   border: 2px dotted blue;
